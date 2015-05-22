@@ -24,7 +24,8 @@ public class MainActivity extends ActionBarActivity {
         int num1 = Integer.parseInt(e1.getText().toString());
         int num2 = Integer.parseInt(e2.getText().toString());
         int sum = num1 + num2;
-        t1.setText("Results: " + Integer.toString(sum));
+        t1.setText("Result: " + Integer.toString(sum));
+
     }
 
     @Override
